@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useLocation } from "wouter";
-import { Card, CardHeader, Input, Button } from "@/components/UI";
+import { Card, CardHeader, Input, Button } from "@/components/ui";
 import { ShieldAlert, Loader2, Lock } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
