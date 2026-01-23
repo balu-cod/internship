@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { api } from "@/shared/routes";
+import { api } from "@/shared/route";
 import { useMaterialAction, useMaterial } from "@/hooks/use-inventory";
 import { Card, CardHeader, Input, Button } from "@/components/ui";
 import { Loader2, PackageMinus, AlertTriangle } from "lucide-react";
