@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLocation } from "wouter";
-import { Card, CardHeader, Button } from "@/components/UI";
+import { Card, CardHeader, Button } from "@/components/ui";
 import { ShieldAlert, RotateCcw, History, AlertTriangle, LogOut } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { useQueryClient } from "@tanstack/react-query";
