@@ -1,5 +1,5 @@
 import { useStats, useLogs, useMaterials } from "@/hooks/use-inventory";
-import { Card, CardHeader, StatMetric, Button } from "@/components/UI";
+import { Card, CardHeader, StatMetric, Button } from "@/components/ui";
 import { Package, PackagePlus, PackageMinus, Clock, Download } from "lucide-react";
 import { format } from "date-fns";
 import * as XLSX from 'xlsx';
