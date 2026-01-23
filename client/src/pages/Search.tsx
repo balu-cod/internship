@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useMaterials } from "@/hooks/use-inventory";
-import { Card, CardHeader, Input, Button } from "@/components/UI";
+import { Card, CardHeader, Input, Button } from "@/components/ui";
 import { Search as SearchIcon, Loader2, Package, Clock, MapPin, Tag } from "lucide-react";
 import { Link } from "wouter";
 import { format } from "date-fns";
