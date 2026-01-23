@@ -3,7 +3,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
 import { api } from "@/shared/routes";
 import { useMaterialAction, useMaterial } from "@/hooks/use-inventory";
-import { Card, CardHeader, Input, Button } from "@/components/UI";
+import { Card, CardHeader, Input, Button } from "@/components/ui";
 import { Loader2, PackageMinus, AlertTriangle } from "lucide-react";
 import { useState, useEffect } from "react";
 import { useLocation } from "wouter";
