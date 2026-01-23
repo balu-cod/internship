@@ -11,7 +11,7 @@ import {
 } from "lucide-react";
 import { motion } from "framer-motion";
 import { clsx } from "clsx";
-import { Button } from "./UI";
+import { Button } from "./ui";
 
 interface LayoutProps {
   children: ReactNode;
